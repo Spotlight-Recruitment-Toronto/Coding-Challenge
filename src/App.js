@@ -1,10 +1,9 @@
 import React from "react";
-import axios from "axios";
 
-import SearchInput from "./components/SearchInput";
+import ReactCodingChallenge from "./pages/ReactCodingChallenge";
 
 const App = () => {
-  return <div>REACT CODING CHALLENGE</div>;
+  return <ReactCodingChallenge />;
 };
 
 export default App;
