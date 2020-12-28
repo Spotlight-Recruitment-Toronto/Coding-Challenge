@@ -8,3 +8,5 @@ const ReactCodingChallenge = () => {
 };
 
 export default ReactCodingChallenge;
+
+// Reference for step 2: axios.get(URL_HERE);
