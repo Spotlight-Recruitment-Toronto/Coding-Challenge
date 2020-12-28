@@ -4,7 +4,12 @@ import axios from "axios";
 import SearchInput from "../../components/SearchInput";
 
 const ReactCodingChallenge = () => {
-  return <div>REACT CODING CHALLENGE</div>;
+  return (
+    <div>
+      <h1>REACT CODING CHALLENGE</h1>
+      <SearchInput />
+    </div>
+  );
 };
 
 export default ReactCodingChallenge;
