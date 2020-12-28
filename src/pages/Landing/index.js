@@ -13,12 +13,7 @@ const Landing = () => {
       <Styled.ButtonsContainer>
         {LandingConfig.codingChallengeButtons.map((button) => (
           <Styled.ButtonContainer key={button.label}>
-            <Styled.Button
-              disabled={button.label !== "REACT JS"}
-              to={button.route}
-            >
-              {button.label}
-            </Styled.Button>
+            <Styled.Button to={button.route}>{button.label}</Styled.Button>
           </Styled.ButtonContainer>
         ))}
       </Styled.ButtonsContainer>
